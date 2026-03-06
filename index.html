@@ -31,6 +31,7 @@
         ::-webkit-scrollbar { display: none; }
         .hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)); }
         .glass-card { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .products-dropdown { transition: opacity 0.2s ease, visibility 0.2s ease; }
     </style>
 </head>
 <body class="bg-white text-brand-secondary font-sans antialiased overflow-x-hidden">
@@ -44,7 +45,45 @@
             </div>
             <nav class="hidden md:flex items-center gap-6 lg:gap-10 font-semibold text-sm uppercase tracking-wider">
                 <a href="index.html" class="text-brand-primary">Home</a>
-                <a href="products.html" class="hover:text-brand-primary transition-colors">Products</a>
+                <div class="group relative">
+                    <a href="products.html" class="hover:text-brand-primary transition-colors inline-flex items-center gap-1">Products <i class="fa-solid fa-chevron-down text-[10px] opacity-70"></i></a>
+                    <!-- Invisible bridge from header to panel so hover stays in group when moving mouse down -->
+                    <div class="products-dropdown fixed left-0 w-full top-0 pt-16 md:pt-20 z-40 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto">
+                        <div class="bg-white border-b border-gray-200 shadow-xl py-8">
+                            <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+                                <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">All Products</p>
+                                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-6 gap-y-2">
+                                <a href="aim-digital-dart-arena.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Aim Digital Dart Arena</a>
+                                <a href="air-hockey-table.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Air Hockey Table</a>
+                                <a href="acrade-retro.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Arcade Retro</a>
+                                <a href="arm-wrestling-challenge.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Arm Wrestling Challenge</a>
+                                <a href="basketball-acrade.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Basketball Arcade</a>
+                                <a href="batak-challenge .html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Batak Challenge</a>
+                                <a href="catch-the-bottle-challenge.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Catch the Bottle Challenge</a>
+                                <a href="crazy-chicken.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Crazy Chicken</a>
+                                <a href="digital-archery.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Digital Archery</a>
+                                <a href="duel-batak.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Duel Batak</a>
+                                <a href="foot-war-table-soccer-duel.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Foot War Table Soccer Duel</a>
+                                <a href="goblet-toss.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Goblet Toss</a>
+                                <a href="hang-the-bar-challenge.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Hang the Bar Challenge</a>
+                                <a href="lazer-maze.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Lazer Maze</a>
+                                <a href="maze-runner.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Maze Runner</a>
+                                <a href="one-punch.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">One Punch</a>
+                                <a href="one-strike-hammer.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">One Strike Hammer</a>
+                                <a href="pellet-less-shooting-arena.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Pellet Less Shooting Arena</a>
+                                <a href="penalty-shoot-out.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Penalty Shoot Out</a>
+                                <a href="ring-toss.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Ring Toss</a>
+                                <a href="roll-basket.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Roll Basket</a>
+                                <a href="skee-ball.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Skee Ball</a>
+                                <a href="snatch-the-stick.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Snatch the Stick</a>
+                                <a href="stop-the-light.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Stop the Light</a>
+                                <a href="touch-me-not-challenge.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Touch Me Not Challenge</a>
+                                <a href="tug-of-war.html" class="text-brand-secondary font-medium text-sm py-2 hover:text-brand-primary transition-colors">Tug of War</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <a href="about.html" class="hover:text-brand-primary transition-colors">About</a>
                 <a href="manufacturing.html" class="hover:text-brand-primary transition-colors">Manufacturing</a>
                 <a href="partner.html" class="hover:text-brand-primary transition-colors">Partner</a>

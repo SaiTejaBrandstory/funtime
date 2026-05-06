@@ -1,0 +1,511 @@
+/* Responsive Styles for Funtime India */
+
+/* Base Styles for Mobile Toggle */
+.menu-toggle {
+    display: none;
+}
+
+/* Tablet View (1024px and below) */
+@media (max-width: 1024px) {
+    :root {
+        --max-width: 95%;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .hero-content h1 {
+        font-size: 52px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    nav {
+        gap: 5%;
+        justify-content: space-between;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .hero-image-container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .stat-item:nth-child(2)::after {
+        display: none;
+    }
+
+    .engineered-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .collage-col {
+        flex: 1;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .market-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quote-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile View (768px and below) */
+@media (max-width: 768px) {
+    section {
+        padding-bottom: 60px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .hero {
+        padding: 60px 0 80px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-description {
+        font-size: 18px;
+    }
+
+    /* Mobile Navigation */
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: var(--dark);
+        z-index: 1001;
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background: var(--white);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        gap: 30px;
+        padding: 40px;
+    }
+
+    .india-badge {
+        right: 0px;
+        top: -40px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links li a {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    /* Hero Buttons Stack */
+    .hero-btns {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stats-container {
+        gap: 30px;
+        margin-top: -30px;
+        padding: 30px 20px;
+    }
+
+    .stat-item::after {
+        display: none !important;
+    }
+
+    .work-with-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products-grid,
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 30px 20px;
+    }
+
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-card {
+        min-height: auto;
+        padding: 24px;
+    }
+
+    .setup-cta-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .banner-content h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .market-content h2,
+    .operators-titles h2,
+    .comparison-header h2,
+    .faq-header h2,
+    .india-header h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .comparison-table {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-row {
+        width: 600px;
+    }
+
+    .operators-top {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .stats-row {
+        flex-direction: column;
+    }
+
+    .timeline-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .table-labels {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .table-content {
+        flex-direction: column;
+    }
+
+    .table-cell {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .table-cell.highlight {
+        border-left: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .funtime-roi-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .benefits-grid,
+    .operators-testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .benefit-card {
+        padding: 30px;
+    }
+
+    .venues-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .venue-card.large,
+    .venue-col {
+        width: 300px;
+    }
+
+    .venue-card.large {
+        height: 450px;
+    }
+
+    .venue-card h3 {
+        font-size: 24px;
+    }
+
+    .quote-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .quote-info h2 {
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: -1px;
+        margin-bottom: 24px;
+    }
+
+    .quote-info p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .contact-item {
+        justify-content: center;
+        text-align: left;
+    }
+
+    .quote-form-card {
+        padding: 40px 24px;
+    }
+
+    .final-cta {
+        padding: 40px 20px;
+    }
+
+    .final-cta h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .projects-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .projects-header p {
+        text-align: left;
+    }
+
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .project-card {
+        grid-area: auto !important;
+        height: 420px !important;
+    }
+
+    .project-content {
+        padding: 24px;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .project-card h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .project-card p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .mall-project,
+    .cafe-project,
+    .kids-project {
+        height: 420px !important;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .solutions-india .description-wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .solutions-india .side-line {
+        display: none;
+    }
+
+    .solutions-india p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cities-list ul {
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cities-list li {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .footer-legal {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .operator-benefits .bg-light {
+        padding: 0;
+        background: unset;
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .final-cta h2 {
+        letter-spacing: unset;
+    }
+}
+
+/* Small Mobile View (480px and below) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .logo-box img {
+        width: 140px;
+    }
+
+    .work-with-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .india-badge {
+        width: 100px;
+        height: 100px;
+        top: -60px;
+        right: 0;
+    }
+
+    .india-badge p {
+        font-size: 8px;
+    }
+
+    .media-collage {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .collage-col {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .venue-card.large,
+    .venue-col {
+        width: 260px;
+    }
+
+    .venue-content {
+        left: 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .quote-info h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .faq-question {
+        padding: 20px;
+        font-size: 16px;
+    }
+}

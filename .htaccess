@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteBase /funtimeindia.in/
+
+# Friendly 404 page
+ErrorDocument 404 /funtimeindia.in/404.php
+
+# /products or /products/ -> products.php (before directory check so we don't get directory listing)
+RewriteRule ^products/?$ products.php [L]
+
+# /products/productname -> product.php?slug=productname
+RewriteRule ^products/([a-z0-9-]+)/?$ product.php?slug=$1 [L,QSA]
+
+# Don't rewrite real files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Root -> index.php
+RewriteRule ^$ index.php [L]
+
+# Clean URL: /about -> about.php, etc.
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-z0-9-]+)/?$ $1.php [L]

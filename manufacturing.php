@@ -1,0 +1,354 @@
+<?php
+$page_title = 'Arcade Game Manufacturing in India | Funtime';
+$meta_description = 'Advanced arcade game manufacturing in India with high-quality production and innovative designs.';
+$current_page = 'manufacturing';
+include __DIR__ . '/includes/header.php';
+?>
+
+<section id="manufacturing-hero-section" class="relative min-h-[500px] md:min-h-[600px] lg:h-[800px] w-full flex items-center overflow-hidden py-8 sm:py-12 pt-32">
+            <div class="absolute inset-0 z-0">
+                <img class="w-full h-full object-cover" src="assets/images/manufacturing.jpg" alt="modern manufacturing facility, CNC machines, electronics assembly line, industrial workspace, Bangalore factory, high-tech production floor, professional lighting, wide angle view" />
+                <div class="absolute inset-0 hero-gradient"></div>
+            </div>
+            <div class="relative z-10 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+                    <div class="text-center lg:text-left">
+                        <span class="text-brand-primary font-bold tracking-[0.2em] uppercase text-xs sm:text-sm mb-3 sm:mb-4 block">Manufacturing Excellence</span>
+                        <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-[1.1] mb-4 sm:mb-6">
+                            Built in <span class="text-brand-primary">Bangalore</span>
+                        </h1>
+                        <p class="text-lg sm:text-xl md:text-2xl text-white font-bold mb-3 sm:mb-4">State-of-the-art Manufacturing Facility</p>
+                        <p class="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-6 sm:mb-8">
+                            Funtime operates a fully equipped manufacturing facility in Bangalore with complete in-house capabilities.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+                            <a href="contact" class="cursor-pointer bg-brand-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:bg-white hover:text-brand-primary transition-all inline-block text-center no-underline">Schedule Visit</a>
+                            <a href="contact" class="cursor-pointer border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:bg-white hover:text-brand-secondary transition-all inline-block text-center no-underline">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="flex justify-center lg:justify-end">
+                        <div class="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 w-full max-w-md">
+                            <h3 class="text-white font-bold text-base sm:text-lg mb-3 sm:mb-4">Manufacturing Stats</h3>
+                            <div class="space-y-2 sm:space-y-3 text-white/80 text-sm sm:text-base">
+                                <div class="flex justify-between gap-2"><span>Facility Size:</span><span class="font-semibold text-right">15,000 sq ft</span></div>
+                                <div class="flex justify-between gap-2"><span>Daily Capacity:</span><span class="font-semibold text-right">50+ units</span></div>
+                                <div class="flex justify-between gap-2"><span>Quality Rate:</span><span class="font-semibold text-right">99.8%</span></div>
+                                <div class="flex justify-between gap-2"><span>Location:</span><span class="font-semibold text-brand-primary text-right">Bangalore, India</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="capabilities-section" class="py-12 sm:py-16 md:py-24 bg-white">
+            <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+                <div class="text-center mb-10 sm:mb-12 md:mb-16">
+                    <span class="text-brand-primary font-bold tracking-[0.2em] uppercase text-xs sm:text-sm mb-3 sm:mb-4 block">Manufacturing Capabilities</span>
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 sm:mb-8 leading-tight">
+                        Complete <span class="text-brand-primary">In-House</span> Production
+                    </h2>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-8 mb-12 sm:mb-16 md:mb-20">
+                    <div class="bg-gray-50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 hover:shadow-lg transition-all">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-cut text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">CNC Wood Cutting</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Precision cutting and shaping with computer-controlled machinery for perfect component fabrication.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 hover:shadow-lg transition-all">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-microchip text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Electronics Assembly</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Complete PCB assembly and electronic component integration with quality testing protocols.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 hover:shadow-lg transition-all">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-code text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Embedded Programming</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Custom firmware development and embedded software programming for game logic and controls.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 hover:shadow-lg transition-all">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-spray-can text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Powder Coating & Fabrication</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Professional metal finishing and fabrication services for durability and aesthetic appeal.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 hover:shadow-lg transition-all">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-lightbulb text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">LED & Lighting Integration</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Advanced LED systems and lighting solutions for enhanced visual appeal and user experience.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 hover:shadow-lg transition-all">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-flask text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Quality Testing & Load Testing</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Rigorous testing protocols ensuring each machine meets performance and safety standards.</p>
+                    </div>
+                </div>
+
+                <div class="bg-brand-secondary rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12">
+                    <div class="text-center mb-6 sm:mb-8">
+                        <h3 class="text-2xl sm:text-3xl font-bold text-white mb-3 sm:mb-4">Strict Performance Testing</h3>
+                        <p class="text-base sm:text-xl text-gray-300">Each machine goes through strict performance testing before dispatch.</p>
+                    </div>
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-center">
+                        <div>
+                            <div class="text-3xl sm:text-4xl font-bold text-brand-primary mb-2">100%</div>
+                            <div class="text-white text-sm sm:text-base">Quality Tested</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl sm:text-4xl font-bold text-brand-primary mb-2">72hr</div>
+                            <div class="text-white text-sm sm:text-base">Burn-in Test</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl sm:text-4xl font-bold text-brand-primary mb-2">1000+</div>
+                            <div class="text-white text-sm sm:text-base">Cycle Testing</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl sm:text-4xl font-bold text-brand-primary mb-2">Zero</div>
+                            <div class="text-white text-sm sm:text-base">Defect Policy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process-control-section" class="py-12 sm:py-16 md:py-24 bg-gray-50">
+            <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center mb-12 sm:mb-16 md:mb-20">
+                    <div class="order-2 lg:order-1">
+                        <span class="text-brand-primary font-bold tracking-[0.2em] uppercase text-xs sm:text-sm mb-3 sm:mb-4 block">Complete Process Control</span>
+                        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 sm:mb-8 leading-tight">
+                            End-to-End <span class="text-brand-primary">Manufacturing</span>
+                        </h2>
+                        <p class="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed mb-6 sm:mb-8">
+                            We control every step of the manufacturing process to ensure consistent quality and faster innovation cycles.
+                        </p>
+                        
+                        <div class="space-y-3 sm:space-y-4">
+                            <div class="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-pencil-ruler text-brand-primary"></i>
+                                </div>
+                                <div class="min-w-0"><h4 class="font-bold text-sm sm:text-base">Design</h4>
+                                    <p class="text-gray-600 text-xs sm:text-sm">Conceptualization & Engineering</p></div>
+                            </div>
+                            <div class="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-hammer text-brand-primary"></i>
+                                </div>
+                                <div class="min-w-0"><h4 class="font-bold text-sm sm:text-base">Fabrication</h4>
+                                    <p class="text-gray-600 text-xs sm:text-sm">Precision Manufacturing</p></div>
+                            </div>
+                            <div class="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-microchip text-brand-primary"></i>
+                                </div>
+                                <div class="min-w-0"><h4 class="font-bold text-sm sm:text-base">Electronics</h4>
+                                    <p class="text-gray-600 text-xs sm:text-sm">Component Integration</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4 sm:space-y-6 order-1 lg:order-2">
+                        <div class="h-56 sm:h-64 md:h-80 rounded-2xl sm:rounded-3xl overflow-hidden">
+                            <img class="w-full h-full object-cover" src="assets/images/manufacturing-1.jpg" alt="manufacturing assembly line, workers assembling arcade machines, quality control process, industrial setting, professional lighting" />
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 sm:gap-6">
+                            <div class="h-32 sm:h-36 md:h-40 rounded-xl sm:rounded-2xl overflow-hidden">
+                                <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/fdf33bef44-c5f679adbe69480f27d9.png" alt="CNC machine cutting wood components, precision manufacturing, industrial equipment" />
+                            </div>
+                            <div class="h-32 sm:h-36 md:h-40 rounded-xl sm:rounded-2xl overflow-hidden">
+                                <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/af3ac27c31-b8d2b92772aefc512f99.png" alt="electronics testing station, quality control, circuit boards, testing equipment" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center">
+                    <div class="space-y-4 sm:space-y-6 order-2 lg:order-1">
+                        <div class="h-56 sm:h-64 md:h-80 rounded-2xl sm:rounded-3xl overflow-hidden">
+                            <img class="w-full h-full object-cover" src="assets/images/manufacturing-2.jpg" alt="programming workstation, embedded software development, computer screens with code, technical environment" />
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 sm:gap-6">
+                            <div class="h-32 sm:h-36 md:h-40 rounded-xl sm:rounded-2xl overflow-hidden">
+                                <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/97b2b84b15-9fa80c1899db349b18de.png" alt="final assembly station, arcade machine being assembled, technicians working" />
+                            </div>
+                            <div class="h-32 sm:h-36 md:h-40 rounded-xl sm:rounded-2xl overflow-hidden">
+                                <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/a05f89fe4f-cb5abbba30a4593482ed.png" alt="quality testing area, arcade machine testing, performance validation" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <div class="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
+                            <div class="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-code text-brand-primary"></i>
+                                </div>
+                                <div class="min-w-0"><h4 class="font-bold text-sm sm:text-base">Programming</h4>
+                                    <p class="text-gray-600 text-xs sm:text-sm">Software Development</p></div>
+                            </div>
+                            <div class="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-cogs text-brand-primary"></i>
+                                </div>
+                                <div class="min-w-0"><h4 class="font-bold text-sm sm:text-base">Assembly</h4>
+                                    <p class="text-gray-600 text-xs sm:text-sm">Final Integration</p></div>
+                            </div>
+                            <div class="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-clipboard-check text-brand-primary"></i>
+                                </div>
+                                <div class="min-w-0"><h4 class="font-bold text-sm sm:text-base">Testing</h4>
+                                    <p class="text-gray-600 text-xs sm:text-sm">Quality Validation</p></div>
+                            </div>
+                            <div class="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-tools text-brand-primary"></i>
+                                </div>
+                                <div class="min-w-0"><h4 class="font-bold text-sm sm:text-base">Installation</h4>
+                                    <p class="text-gray-600 text-xs sm:text-sm">On-site Setup</p></div>
+                            </div>
+                        </div>
+
+                        <div class="bg-brand-primary rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 text-white">
+                            <h3 class="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">This Ensures:</h3>
+                            <ul class="space-y-2 sm:space-y-3 text-sm sm:text-base">
+                                <li class="flex items-center gap-3"><i class="fa-solid fa-check text-white shrink-0"></i><span>Better quality control</span></li>
+                                <li class="flex items-center gap-3"><i class="fa-solid fa-check text-white shrink-0"></i><span>Faster innovation</span></li>
+                                <li class="flex items-center gap-3"><i class="fa-solid fa-check text-white shrink-0"></i><span>Custom modifications</span></li>
+                                <li class="flex items-center gap-3"><i class="fa-solid fa-check text-white shrink-0"></i><span>Consistent performance</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service-support-section" class="py-12 sm:py-16 md:py-24 bg-brand-secondary">
+            <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+                <div class="text-center mb-10 sm:mb-12 md:mb-16">
+                    <span class="text-brand-primary font-bold tracking-[0.2em] uppercase text-xs sm:text-sm mb-3 sm:mb-4 block">Service & Support</span>
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 sm:mb-8 leading-tight text-white">
+                        🛠 Complete <span class="text-brand-primary">Support</span> Ecosystem
+                    </h2>
+                    <p class="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto px-2">
+                        We believe long-term partnerships matter more than one-time sales.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-8">
+                    <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-tools text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-brand-secondary">Installation Support</h3>
+                        <ul class="space-y-3 sm:space-y-4 text-gray-600 text-sm sm:text-base">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>On-site installation assistance</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Technical training for operators</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Calibration & setup guidance</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-shield-alt text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-brand-secondary">Warranty & Maintenance</h3>
+                        <ul class="space-y-3 sm:space-y-4 text-gray-600 text-sm sm:text-base">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Structured warranty coverage</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Spare part availability</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Remote troubleshooting support</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-brand-primary/10 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+                            <i class="fa-solid fa-palette text-brand-primary text-xl sm:text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-brand-secondary">Customization Services</h3>
+                        <ul class="space-y-3 sm:space-y-4 text-gray-600 text-sm sm:text-base">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Branding customization</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Game logic modification</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-brand-primary mt-1"></i>
+                                <span>Revenue model configuration</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="manufacturing-cta-section" class="py-12 sm:py-16 md:py-24 bg-brand-primary relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none hidden md:block">
+                <i class="fa-solid fa-industry text-[400px] -rotate-12 transform translate-x-24 translate-y-24"></i>
+            </div>
+            <div class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-8 text-center lg:text-left">
+                    <div class="max-w-2xl">
+                        <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4 sm:mb-6">Visit Our Facility</h2>
+                        <p class="text-lg sm:text-xl md:text-2xl text-white/80 leading-relaxed mb-6 sm:mb-8">
+                            Experience our state-of-the-art manufacturing facility in Bangalore and see how we create world-class entertainment solutions.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+                            <div class="bg-white/10 rounded-xl p-3 sm:p-4 text-center min-w-0">
+                                <div class="text-xl sm:text-2xl font-bold text-white">15,000</div>
+                                <div class="text-white/80 text-xs sm:text-sm">sq ft facility</div>
+                            </div>
+                            <div class="bg-white/10 rounded-xl p-3 sm:p-4 text-center min-w-0">
+                                <div class="text-xl sm:text-2xl font-bold text-white">50+</div>
+                                <div class="text-white/80 text-xs sm:text-sm">daily capacity</div>
+                            </div>
+                            <div class="bg-white/10 rounded-xl p-3 sm:p-4 text-center min-w-0">
+                                <div class="text-xl sm:text-2xl font-bold text-white">99.8%</div>
+                                <div class="text-white/80 text-xs sm:text-sm">quality rate</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-3 sm:gap-4 w-full sm:max-w-sm lg:w-auto shrink-0">
+                        <a href="contact" class="cursor-pointer bg-brand-secondary text-white px-8 sm:px-12 py-4 sm:py-5 rounded-xl font-black text-lg sm:text-xl hover:bg-white hover:text-brand-secondary transition-all shadow-2xl w-full sm:w-auto text-center inline-block no-underline">SCHEDULE VISIT</a>
+                        <a href="contact" class="cursor-pointer border-2 border-white text-white px-8 sm:px-12 py-4 sm:py-5 rounded-xl font-bold text-lg sm:text-xl hover:bg-white hover:text-brand-secondary transition-all w-full sm:w-auto text-center inline-block no-underline">CONTACT US</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<?php include __DIR__ . '/includes/footer.php'; ?>

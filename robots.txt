@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block admin or private areas (optional)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://funtimeindia.in/sitemap.xml
